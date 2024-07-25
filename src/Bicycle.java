@@ -8,16 +8,12 @@ public class Bicycle extends Transport {
     }
     @Override
     public void check() {
+        System.out.println("bicycle");
         super.check();
-        updateTyre();
     }
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-    public String getModelName() {
-        return modelName;
-    }
+//    public void updateTyre() {
+//        System.out.println("Меняем покрышку");
+//    }
 
 
     @Override

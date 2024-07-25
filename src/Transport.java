@@ -8,34 +8,35 @@ public class Transport {
     }
     public void check() {
         for (int i = 0; i < wheelsCount; i++) {
-            check();
+            updateTyre();
         }
     }
 
-//    public void updateTyre() {
-//        System.out.println("Меняем покрышку");
-//    }
-//    public void checkEngine() {
-//        System.out.println("Проверяем двигатель");
-//    }
-//    public void checkTrailer() {
-//        System.out.println("Проверяем прицеп");
-//    }
+   public void updateTyre() {
+        System.out.println("Меняем покрышку");
+   }
+    public void checkEngine() {
+       System.out.println("Проверяем двигатель");
+   }
+   public void checkTrailer() {
+        System.out.println("Проверяем прицеп");
+    }
     public int getWheelsCount() {
         return wheelsCount;
     }
-    private String getModelName() {
+    public String getModelName() {
         return modelName;
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Transport{" +
                 "modelName='" + modelName + '\'' +
                 ", wheelsCount=" + wheelsCount +
                 '}';
     }
 }
+
 
 
 
