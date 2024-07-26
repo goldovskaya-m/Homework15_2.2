@@ -7,6 +7,7 @@ public class Transport {
         this.wheelsCount = wheelsCount;
     }
     public void check() {
+        System.out.println(String.format("Обслуживаем " + getModelName()));
         for (int i = 0; i < wheelsCount; i++) {
             updateTyre();
         }

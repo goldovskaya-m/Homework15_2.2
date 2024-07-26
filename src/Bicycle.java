@@ -11,6 +11,7 @@ public class Bicycle extends Transport {
         System.out.println("bicycle");
         super.check();
     }
+
 //    public void updateTyre() {
 //        System.out.println("Меняем покрышку");
 //    }
